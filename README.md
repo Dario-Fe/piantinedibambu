@@ -50,7 +50,6 @@ Nessun framework o libreria esterna (solo Google Fonts: Inter + Playfair Display
 nuovo_sito_bambu/
 ├── index.html          # Pagina principale (single-page)
 ├── logo.png            # Logo principale (hero)
-├── logo_old.png        # Logo precedente
 ├── css/
 │   └── style.css       # Tutti gli stili (1037 righe)
 ├── js/
