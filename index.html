@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Il sito delle Piantine di Bambù. Coltiviamo e vendiamo piantine di bambù delle migliori specie: Phyllostachys Edulis, Dendrocalamus, Phyllostachys Nigra, Madake.">
+  <meta property="og:title" content="PiantineDiBambù">
+  <meta property="og:description" content="Il sito delle Piantine di Bambù">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>PiantineDiBambù – Coltivatori di Bambù</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎋</text></svg>">
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <span class="header__logo-icon">🎋</span>
+        PiantineDiBambù
+      </a>
+      <nav class="nav" role="navigation" aria-label="Navigazione principale">
+        <a href="#specie" class="nav__link">Specie</a>
+        <a href="#chi-siamo" class="nav__link">Chi Siamo</a>
+        <a href="#prenota" class="nav__link">Prenota</a>
+        <a href="#consigli" class="nav__link">Consigli</a>
+        <a href="#situazione" class="nav__link">Disponibilità</a>
+        <a href="#contatti" class="nav__link nav__link--cta">Contattaci</a>
+      </nav>
+      <button class="hamburger" aria-label="Apri menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Mobile Nav ── -->
+  <div class="mobile-nav" role="dialog" aria-label="Menu mobile">
+    <a href="#specie">Specie</a>
+    <a href="#chi-siamo">Chi Siamo</a>
+    <a href="#prenota">Prenota</a>
+    <a href="#consigli">Consigli</a>
+    <a href="#situazione">Disponibilità</a>
+    <a href="#contatti">Contattaci</a>
+  </div>
+
+  <!-- ── Hero ── -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <div class="hero__logo">
+        <img src="logo.png" alt="PiantineDiBambù" class="hero__logo-img">
+      </div>
+      <h1 class="hero__title">
+        La bellezza del <span>bambù</span> coltivata con passione
+      </h1>
+      <p class="hero__text">
+        Da oltre un decennio selezioniamo e coltiviamo le migliori specie di bambù.
+        Dal Phyllostachys Edulis al Dendrocalamus, ogni piantina è curata con dedizione
+        per offrirti il meglio della natura.
+      </p>
+      <div class="hero__actions">
+        <a href="#specie" class="btn btn--primary">Scopri le specie</a>
+        <a href="#prenota" class="btn btn--outline">Ordina ora</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scopri</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── Specie ── -->
+  <section class="section section--light" id="specie">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__label">Le nostre specie</div>
+        <h2 class="section__title">Quattro varietà di bambù</h2>
+        <p class="section__sub">
+          Ogni specie ha caratteristiche uniche. Scopri quella più adatta al tuo progetto.
+        </p>
+      </div>
+
+      <div class="species-grid">
+
+        <!-- Edulis -->
+        <div class="species-card reveal">
+          <div class="species-card__img">
+            <img src="images/moso.jpg" alt="Phyllostachys Edulis">
+          </div>
+          <div class="species-card__body">
+            <h3 class="species-card__title">Phyllostachys Edulis</h3>
+            <p class="species-card__sci-name">Moso Bamboo</p>
+            <p class="species-card__desc">
+              Il bambù gigante per eccellenza. Raggiunge i 25/30 metri di altezza.
+              Utilizzato per mobili, parquet, sostegni e produzione di biomassa.
+              Introdotto in Europa nel 1880.
+            </p>
+            <span class="species-card__tag">Invasivo</span>
+          </div>
+          <div class="species-card__expand">
+            <p>
+              Una volta raggiunta una certa vigorosità, non necessita di irrigazioni:
+              il fogliame a terra trattiene l'umidità e protegge le radici dal gelo.
+              Per limitare la propagazione è necessario interrare guaina di 2mm.
+              Le canne sono usate anche per la produzione di pellet di bambù.
+            </p>
+          </div>
+        </div>
+
+        <!-- Dendrocalamus -->
+        <div class="species-card reveal">
+          <div class="species-card__img">
+            <img src="images/bambugigante.jpg" alt="Dendrocalamus">
+          </div>
+          <div class="species-card__body">
+            <h3 class="species-card__title">Dendrocalamus</h3>
+            <p class="species-card__sci-name">Bambù Gigante – Bamboo di Calcutta</p>
+            <p class="species-card__desc">
+              Specie non invasiva della famiglia Poaceae. Pianta tropicale e subtropicale
+              originaria del Sud-est asiatico. Ideale per giardini e abitazioni.
+            </p>
+            <span class="species-card__tag">Non invasivo</span>
+          </div>
+          <div class="species-card__expand">
+            <p>
+              Raggiunge 8-15 metri di altezza. Sempreverde, molto vigorosa.
+              Tronco cilindrico con internodi cavi e nodi evidenti.
+              Il legno viene impiegato nell'industria cartiera. Resistente alla siccità.
+            </p>
+          </div>
+        </div>
+
+        <!-- Nigra -->
+        <div class="species-card reveal">
+          <div class="species-card__img">
+            <img src="images/bambunero.jpg" alt="Phyllostachys Nigra">
+          </div>
+          <div class="species-card__body">
+            <h3 class="species-card__title">Phyllostachys Nigra</h3>
+            <p class="species-card__sci-name">Bambù Nero – Kuro-chiku</p>
+            <p class="species-card__desc">
+              Magnifico bambù dai culmi verdi che si scuriscono progressivamente
+              fino a diventare neri come l'ebano. Resistente fino a –20 °C.
+            </p>
+            <span class="species-card__tag">Resiste al freddo</span>
+          </div>
+          <div class="species-card__expand">
+            <p>
+              Lo scurimento avviene soprattutto al sole. Foglie verdi fitte e lucide,
+              rizoma poco strisciante. Diametro culmi: 2-4 cm (fino a 7 in condizioni ottimali).
+              Perfetto come ciuffo isolato o siepe. Il fogliame si danneggia sotto ai –12°C con vento secco.
+              <br><em>Momentaneamente piantine esaurite.</em>
+            </p>
+          </div>
+        </div>
+
+        <!-- Madake -->
+        <div class="species-card reveal">
+          <div class="species-card__img">
+            <img src="images/madake.jpg" alt="Phyllostachys Bambusoides">
+          </div>
+          <div class="species-card__body">
+            <h3 class="species-card__title">Phyllostachys Bambusoides</h3>
+            <p class="species-card__sci-name">Madake</p>
+            <p class="species-card__desc">
+              Bambù invasivo che raggiunge i 10 metri di altezza. I germogli
+              fuoriescono a fine maggio. Famoso per la durezza del suo legno.
+            </p>
+            <span class="species-card__tag">Invasivo</span>
+          </div>
+          <div class="species-card__expand">
+            <p>
+              In 5 anni si ottengono canne sempre più grandi. Diametro culmi: 5-7 cm.
+              Usato in Giappone per architettura e artigianato, incluso strumenti musicali.
+              Richiesto per impianti a biomassa. I vigneti vengono sostituiti con bambuseti
+              che producono centinaia di canne all'anno senza manutenzione.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Chi Siamo ── -->
+  <section class="section section--white" id="chi-siamo">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-visual__main">
+            <img src="images/bambu-nagasaki.jpg" alt="Bambù a Nagasaki" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+          </div>
+          <div class="about-visual__card">
+            <div class="about-visual__card-num">1945</div>
+            <div class="about-visual__card-label">Il bambù rinacque per primo<br>su Hiroshima e Nagasaki. <br>Foto generata.</div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <div class="section__label">Chi Siamo</div>
+          <h2>La nostra storia con il bambù</h2>
+          <p>
+            Da sempre appassionati della natura e degli animali, abbiamo intrapreso
+            questo percorso affascinati da questa pianta straordinaria: <strong>il bambù</strong>.
+          </p>
+          <p>
+            È la pianta che assorbe più anidride carbonica e produce più ossigeno
+            di qualsiasi altra in natura. Ogni anno, a fine Maggio, i nuovi germogli
+            fuoriescono dal terreno e in circa due mesi raggiungono l'altezza massima.
+          </p>
+          <p>
+            Si narra che sia stata la prima specie vegetale a rinascere sui suoli
+            di Hiroshima e Nagasaki dopo il bombardamento atomico del 1945.
+            Graminacea perenne, sempreverde, dalla crescita spontanea e rapida.
+            Non ha bisogno di essere seminata, annaffiata o concimata.
+          </p>
+          <p>
+            Il nostro lavoro consiste nella produzione e selezione delle piantine
+            più vigorose e resistenti, per offrire ai nostri clienti il meglio
+            di questa meravigliosa graminacea.
+          </p>
+          <p class="about-signature">Marco, Elisa e Ilaria</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Prenota ── -->
+  <section class="section section--alt" id="prenota">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__label">Prenota</div>
+        <h2 class="section__title">Ordina le tue piantine</h2>
+        <p class="section__sub">
+          Sono disponibili le nuove piantine di Phyllostachys Edulis Moso.
+          Per prenotazioni oltre 50 unità chiediamo una piccola caparra.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <div class="pricing-card__icon pricing-card__icon--green">🌱</div>
+          <h3 class="pricing-card__name">Vasetto piantine</h3>
+          <div class="pricing-card__price">€10 <span>cad.</span></div>
+          <p class="pricing-card__desc">
+            Ogni vasetto può contenere fino a 4 piantine di bambù.
+            Ideale per iniziare la tua coltivazione.
+          </p>
+          <a href="#contatti" class="btn btn--primary" data-prefill="Prenotazione - Vasetto piantine - numero:" data-motivo="ordine">Prenota</a>
+        </div>
+        <div class="pricing-card pricing-card--featured reveal">
+          <div class="pricing-card__badge">Più richiesto</div>
+          <div class="pricing-card__icon pricing-card__icon--gold">🌿</div>
+          <h3 class="pricing-card__name">Rizomi età adulta</h3>
+          <div class="pricing-card__price">€35 <span>cad.</span></div>
+          <p class="pricing-card__desc">
+            Rizomi (ceppi) di età adulta, pronti per essere piantati
+            in pieno campo. Crescita immediata e vigorosa.
+          </p>
+          <a href="#contatti" class="btn btn--primary" data-prefill="Prenotazione - Rizomi età adulta - numero:" data-motivo="ordine">Prenota</a>
+        </div>
+        <div class="pricing-card reveal">
+          <div class="pricing-card__icon pricing-card__icon--green">🍌</div>
+          <h3 class="pricing-card__name">Altre piantine</h3>
+          <div class="pricing-card__price" style="font-size:1.8rem;">da €5</div>
+          <p class="pricing-card__desc">
+            Oltre al bambù abbiamo: Banano in vaso (€10) e
+            Acero Rosso (€5). Disponibilità limitata.
+          </p>
+          <a href="#contatti" class="btn btn--primary" data-prefill="Richiesta informazioni per:" data-motivo="info">Info</a>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:32px;font-size:0.9rem;color:#6B7A7A;" class="reveal">
+        Pagamento: PayPal, bonifico bancario. Spedizione rapida in tutta Italia.
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Consigli ── -->
+  <section class="section section--light" id="consigli">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__label">Consigli</div>
+        <h2 class="section__title">Come coltivare il bambù</h2>
+        <p class="section__sub">
+          I nostri consigli per garantire alle tue piantine una crescita sana e vigorosa.
+        </p>
+      </div>
+
+      <div class="tips-grid">
+        <div class="tip-card reveal">
+          <div class="tip-card__num">01</div>
+          <h4>Preparazione del terreno</h4>
+          <p>
+            Vangare bene una circonferenza di almeno 20/30 cm dalla buca centrale.
+            Sul fondo versare terriccio composto per metà sabbia di fiume e metà
+            terriccio per tappeti erbosi (ph &lt; 7).
+          </p>
+        </div>
+        <div class="tip-card reveal">
+          <div class="tip-card__num">02</div>
+          <h4>Trapianto</h4>
+          <p>
+            Bagnare bene il terriccio del vaso prima di capovolgere la piantina,
+            in modo che il panetto di terra rimanga ben compatto.
+            Interrare e irrigare nuovamente.
+          </p>
+        </div>
+        <div class="tip-card reveal">
+          <div class="tip-card__num">03</div>
+          <h4>Protezione iniziale</h4>
+          <p>
+            Per terreni di campagna proteggere le piantine con rete metallica
+            da animali selvatici (caprioli, cinghiali, lepri) per almeno il primo periodo.
+          </p>
+        </div>
+        <div class="tip-card reveal">
+          <div class="tip-card__num">04</div>
+          <h4>Pacciamatura naturale</h4>
+          <p>
+            NON rimuovere le foglie che cadono naturalmente. Saranno protezione
+            dal gelo invernale, rilasceranno sostanze nutrienti e manterranno
+            l'umidità nei mesi estivi.
+          </p>
+        </div>
+        <div class="tip-card reveal">
+          <div class="tip-card__num">05</div>
+          <h4>Crescita autonoma</h4>
+          <p>
+            Quando i nuovi culmi raggiungono 50 cm di altezza, non sarà più
+            necessaria alcuna cura. Le piantine cresceranno autonomamente.
+            Ricorda: il bambù è altamente invasivo.
+          </p>
+        </div>
+        <div class="tip-card reveal">
+          <div class="tip-card__num">06</div>
+          <h4>Coltivazione in vaso</h4>
+          <p>
+            È possibile trapiantare in vaso, anche se l'altezza della pianta
+            rimarrà inferiore rispetto al trapianto in piena terra.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Situazione piantine ── -->
+  <section class="section section--green" id="situazione">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__label" style="color:var(--gold-400);">Disponibilità</div>
+        <h2 class="section__title">Situazione piantine</h2>
+        <p class="section__sub">
+          Aggiornamenti in tempo reale sulle nostre disponibilità.
+        </p>
+      </div>
+      <div class="status-box reveal">
+        <p class="status-box__date">Aggiornato il 21 Novembre 2025</p>
+        <h3>Phyllostachys Edulis Moso Bamboo</h3>
+        <p>
+          Sono disponibili le nuove piantine in vasetti e rizomi (ceppi)
+          di età adulta, pronti per essere piantati in pieno campo.
+          Disponibili anche rizomi di Madake.
+          <br><br>
+          Per info: <strong>mark.ni@hotmail.it</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contatti ── -->
+  <section class="section section--white" id="contatti">
+    <div class="container">
+      <div class="section__header reveal">
+        <div class="section__label">Contatti</div>
+        <h2 class="section__title">Scrivici</h2>
+        <p class="section__sub">
+          Per informazioni, prenotazioni o richieste. Ti risponderemo al più presto.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Parlaci del tuo progetto</h3>
+          <p>
+            Siamo a disposizione per qualsiasi domanda sulle nostre piantine,
+            sulla coltivazione del bambù o per organizzare la tua spedizione.
+          </p>
+          <div class="contact-info__item">
+            <span class="contact-info__item-icon">✉</span>
+            <span>mark.ni@hotmail.it</span>
+          </div>
+          <div class="contact-info__item">
+            <span class="contact-info__item-icon">📍</span>
+            <span>Verbano Cusio Ossola (VCO), Piemonte</span>
+          </div>
+          <div class="contact-info__item">
+            <span class="contact-info__item-icon">📋</span>
+            <span>P.I. 02453870038</span>
+          </div>
+          <p style="margin-top:20px;font-size:0.85rem;">
+            Certificati di qualità disponibili su richiesta per la specie
+            Phyllostachys Pubescens Edulis (Moso).
+          </p>
+        </div>
+
+        <form class="form reveal" id="contactForm">
+          <div class="form__group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required>
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tua@email.com" required>
+          </div>
+          <div class="form__group">
+            <label for="motivo">Motivo del contatto</label>
+            <select id="motivo" name="motivo">
+              <option value="">— Seleziona —</option>
+              <option value="info">Richiesta informazioni</option>
+              <option value="ordine">Voglio ordinare</option>
+              <option value="collaborazione">Proposta di collaborazione</option>
+              <option value="altro">Altro</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="messaggio">Messaggio</label>
+            <textarea id="messaggio" name="messaggio" placeholder="Scrivi qui il tuo messaggio..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Invia messaggio</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__links">
+        <a href="#specie">Specie</a>
+        <a href="#chi-siamo">Chi Siamo</a>
+        <a href="#prenota">Prenota</a>
+        <a href="#consigli">Consigli</a>
+        <a href="#situazione">Disponibilità</a>
+        <a href="#contatti">Contatti</a>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__copy">
+        &copy; 2026 PiantineDiBambù &middot; P.I. 02453870038
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Newsletter Popup ── -->
+  <div class="popup-overlay" id="popup-newsletter">
+    <div class="popup">
+      <button class="popup__close" id="popup-close">&times;</button>
+      <h3>Rimani aggiornato</h3>
+      <p>
+        Ricevi gratuitamente i nostri aggiornamenti su nuove disponibilità,
+        specie e consigli di coltivazione.
+      </p>
+      <form class="form" action="#" method="post">
+        <div class="form__group">
+          <label for="popup-nome">Nome</label>
+          <input type="text" id="popup-nome" name="nome" placeholder="Giovanni Mela">
+        </div>
+        <div class="form__group">
+          <label for="popup-email">Email</label>
+          <input type="email" id="popup-email" name="email" placeholder="esempio@me.com" required>
+        </div>
+        <label class="form__checkbox">
+          <input type="checkbox" name="privacy" required>
+          Accetto la <a href="#" style="text-decoration:underline;">privacy policy</a>
+        </label>
+        <button type="submit" class="btn btn--primary">Registrati</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
